@@ -10,7 +10,7 @@ h1{
     color:#045a79;
 }
 form{
-    max-width: 600px;
+    max-width: 700px;
     margin:auto;
     background-color: #045a790c;
     border-radius: 8px;
@@ -37,6 +37,19 @@ label{
     font-size: large;
     color: rgba(0, 0, 0, 0.853);
 }
+
+/* image */
+ .profilePicture{
+    display: block;
+    margin: auto;
+    border: 2px solid #045a79;
+    height: 200px;
+    width:200px;
+    border-radius: 500%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgb(11, 7, 211,0.5);
+}
+
 input,textarea {
     width: 98%;
     padding: 10px;
@@ -63,4 +76,18 @@ button:hover {
     background-color: #045a79b7;
     color: aliceblue;
     padding: 12px;
+}
+
+
+/* resume ouitput */
+#resumeOutput{
+    max-width: 700px;
+    margin:auto;
+    background-color: #045a790c;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0,0.7);
+    padding: 30px;
+}
+#resumeOutput h2{
+    color:#045a79;
 }

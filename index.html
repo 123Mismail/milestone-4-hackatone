@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>resume builder app</title>
+    <title> milestone:4 Editable Resume App </title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -18,7 +18,9 @@
                 <label for="phone">Phone:</label><br>
                 <input type="phone" name="phone" id="phone" required><br>
                 <label for="address">Adress:</label><br>
-                <input type="text" name="adress" id="adress" required><br>
+                <input type="text" name="address" id="address" required><br> 
+                <label for="profilePicture">Profile Picture </label>
+                <input type="file" name="profilePicture" id="profilePicture" accept="iamge/*" required>
             </fieldset>
 
             <fieldset>
@@ -41,8 +43,17 @@
                 <label for="achivements">Achivements</label>
                 <textarea name="achivements" id="achivements" rows="4"> </textarea>
             </fieldset>
+            <fieldset>
+                <legend>Hobies</legend>
+                <label for="achivements">Hobies</label>
+                <textarea name="hobies" id="hobies" rows="4"> </textarea>
+            </fieldset>
             <button id="button" type="submit">Generate Resume</button>
         </form>
-    
+        
+         <div id="resumeOutput">
+<!-- resume will be build here -->
+         </div>
+    <script src="index.js"></script>
 </body>
 </html>
